@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s ease;
+  font-family: bignoodletitling;
+  background-color: lightgray;
+  
+}
+
+
+div.img-area {
+  height: 400px;
+  width: 100%;
+  background: url("wemadeit.gif");
+  background-position: center;
+  background-size: cover;
+  margin-right: 50px;
+ 
+  margin-left: 0px;
+  box-shadow: 0px 16px 10px gray;
+  display: flex; 
+ 
+  
+
+	
+  
+}
+.form-area{
+  display: flex;
+  flex-direction: row;
+ 
+  
+  box-shadow: rgba(0, 0, blue, alpha);
+  
+  background-color: white;
+ position: fixed;
+ box-shadow: 0px 20px 10px gray;
+}
+
+.wrapper{
+justify-content: center;
+  margin-top: 200px;
+  display: flex;
+  
+}
+
+.btn
+{
+  background-color: rgb(255, 60, 0);
+  border-radius: 5px;
+ display: flex;
+  margin-right: 315px;
+  color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+
+padding-left: 5px;
+cursor: pointer;
+text-align: center;
+
+}
+
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+
+.right-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 20px;
+ padding-bottom: 20px;
+  text-align: left;
+  margin-top: 20px;
+}
